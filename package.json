@@ -1,0 +1,22 @@
+{
+  "name": "cakes",
+  "version": "1.0.0",
+  "description": "Landing page for portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igordefo/cakes.git"
+  },
+  "author": "Igor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igordefo/cakes/issues"
+  },
+  "homepage": "https://github.com/igordefo/cakes#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
